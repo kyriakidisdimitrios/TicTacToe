@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #1F182C;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox id="hbox1" fx:id="Hbox1" alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="600.0" style="-fx-background-color: #1F182C;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="37.0" prefWidth="363.0" style="-fx-background-color: #252679;" />
+            <AnchorPane prefHeight="37.0" prefWidth="351.0" style="-fx-background-color: #1F182C;" />
+            <FontAwesomeIconView fill="RED" glyphName="MINUS" size="20">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="RED" glyphName="CIRCLE" size="20">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="RED" glyphName="CLOSE" size="27">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <Pane prefHeight="463.0" prefWidth="363.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="116.0" layoutY="48.0" text="Tic Tac Toe" textFill="#a8a8a8">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <JFXTextArea editable="false" layoutX="7.0" layoutY="120.0" prefHeight="335.0" prefWidth="780.0" text="Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.&#10;&#10;Gameplay&#10;Tic-tac-toe is played on a three-by-three grid by two players, who alternately place the marks X and O in one of the nine spaces in the grid.&#10;&#10;There is no universally-agreed rule as to who plays first, but in this article the convention that X plays first is used.&#10;&#10;Players soon discover that the best play from both parties leads to a draw. Hence, tic-tac-toe is often played by young children who may not have discovered the optimal strategy.&#10;&#10;Because of the simplicity of tic-tac-toe, it is often used as a pedagogical tool for teaching the concepts of good sportsmanship and the branch of artificial intelligence that deals with the searching of game trees. It is straightforward to write a computer program to play tic-tac-toe perfectly or to enumerate the 765 essentially different positions (the state space complexity) or the 26,830 possible games up to rotations and reflections (the game tree complexity) on this space.[1] If played optimally by both players, the game always ends in a draw, making tic-tac-toe a futile game.[2]&#10;&#10;&#10;Incidence structure for tic-tac-toe&#10;The game can be generalized to an m,n,k-game, in which two players alternate placing stones of their own color on an m-by-n board with the goal of getting k of their own color in a row. Tic-tac-toe is the 3,3,3-game.[3] Harary's generalized tic-tac-toe is an even broader generalization of tic-tac-toe. It can also be generalized as an nd game, specifically one in which n equals 3 and d equals 2.[4] It can be generalised even further by playing on an arbitrary incidence structure, where rows are lines and cells are points. Tic-tac-toe's incidence structure consists of nine points, three horizontal lines, three vertical lines, and two diagonal lines, with each line consisting of at least three points.&#10;&#10;History&#10;Games played on three-in-a-row boards can be traced back to ancient Egypt,[5] where such game boards have been found on roofing tiles dating from around 1300 BC.[6]&#10;&#10;An early variation of tic-tac-toe was played in the Roman Empire, around the first century BC. It was called terni lapilli (three pebbles at a time) and instead of having any number of pieces, each player had only three; thus, they had to move them around to empty spaces to keep playing.[7] The game's grid markings have been found chalked all over Rome. Another closely related ancient game is three men's morris which is also played on a simple grid and requires three pieces in a row to finish,[8] and Picaria, a game of the Puebloans.&#10;&#10;The different names of the game are more recent. The first print reference to &quot;noughts and crosses&quot; (nought being an alternative word for 'zero'), the British name, appeared in 1858, in an issue of Notes and Queries.[9] The first print reference to a game called &quot;tick-tack-toe&quot; occurred in 1884, but referred to &quot;a children's game played on a slate, consisting of trying with the eyes shut to bring the pencil down on one of the numbers of a set, the number hit being scored&quot;.[This quote needs a citation] &quot;Tic-tac-toe&quot; may also derive from &quot;tick-tack&quot;, the name of an old version of backgammon first described in 1558. The US renaming of &quot;noughts and crosses&quot; to &quot;tic-tac-toe&quot; occurred in the 20th century.[10]&#10;&#10;In 1952, OXO (or Noughts and Crosses), developed by British computer scientist Sandy Douglas for the EDSAC computer at the University of Cambridge, became one of the first known video games.[11][12] The computer player could play perfect games of tic-tac-toe against a human opponent.[11]&#10;&#10;In 1975, tic-tac-toe was also used by MIT students to demonstrate the computational power of Tinkertoy elements. The Tinkertoy computer, made out of (almost) only Tinkertoys, is able to play tic-tac-toe perfectly.[13] It is currently on display at the Museum of Science, Boston.&#10;" unFocusColor="TRANSPARENT" />
+         </children>
+      </Pane>
+   </left>
+</BorderPane>
